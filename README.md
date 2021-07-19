@@ -34,7 +34,9 @@ print(get_python_lib())
              && \
     sudo make install   
 ```
-
+```
+conda config --add channels conda-forge
+```
 ```
     conda install exifread gpxpy networkx pyproj python-dateutil xmltodict loky repoze.lru
 ```
