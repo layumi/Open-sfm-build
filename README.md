@@ -1,3 +1,15 @@
+Install gcc-7
+```
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install gcc-7 g++-7
+cd /usr/bin
+sudo rm gcc
+sudo ln -s gcc-7 g++
+sudo rm g++
+sudo ln -s g++-7 g++
+```
+
 ```
 sudo apt-get update \
     && sudo apt-get install -y \
