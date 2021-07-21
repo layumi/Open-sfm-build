@@ -10,6 +10,7 @@ sudo rm g++
 sudo ln -s g++-7 g++
 ```
 
+
 ```
 sudo apt-get update \
     && sudo apt-get install -y \
@@ -17,7 +18,7 @@ sudo apt-get update \
         cmake \
         git \
         libatlas-base-dev \
-        libeigen3-dev \
+        libeigen3-dev=3.3.4-4 \
         libgoogle-glog-dev \
         libopencv-dev \
         libsuitesparse-dev 
@@ -52,7 +53,7 @@ conda config --add channels conda-forge
 ```
 
 ```
-conda install exifread gpxpy networkx pyproj python-dateutil xmltodict loky repoze.lru sphinx fpdf
+conda install exifread gpxpy networkx pyproj python-dateutil xmltodict loky repoze.lru sphinx fpdf cloudpickle flask joblib matplotlib pytest six wheel
 ```
 
 ```
