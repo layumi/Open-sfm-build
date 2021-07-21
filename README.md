@@ -40,5 +40,10 @@ conda config --add channels conda-forge
 ```
 
 ```
-    conda install exifread gpxpy networkx pyproj python-dateutil xmltodict loky repoze.lru sphinx fpdf
+conda install exifread gpxpy networkx pyproj python-dateutil xmltodict loky repoze.lru sphinx fpdf
 ```
+
+```
+python setup.py build
+```
+
