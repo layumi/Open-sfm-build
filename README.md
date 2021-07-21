@@ -30,7 +30,7 @@ sudo apt-get update \
 ```
 
 
-for Ubuntu-16
+for Ubuntu-16 (Please update the libeigen3 )
 ``` 
 wget http://kr.archive.ubuntu.com/ubuntu/pool/universe/e/eigen3/libeigen3-dev_3.3.4-4_all.deb 
 sudo dpkg -i libeigen3-dev_3.3.4-4_all.deb 
