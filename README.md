@@ -10,9 +10,6 @@ sudo rm g++
 sudo ln -s g++-7 g++
 ```
 
-wget http://kr.archive.ubuntu.com/ubuntu/pool/universe/e/eigen3/libeigen3-dev_3.3.4-4_all.deb 
-sudo dpkg -i libeigen3-dev_3.3.4-4_all.deb 
-
 ```
 sudo apt-get update \
     && sudo apt-get install -y \
@@ -31,6 +28,14 @@ sudo apt-get update \
     cmake .. -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DBUILD_EXAMPLES=OFF -DBUILD_TESTING=OFF && \
     sudo make -j4 install 
 ```
+
+
+for Ubuntu-16
+``` 
+wget http://kr.archive.ubuntu.com/ubuntu/pool/universe/e/eigen3/libeigen3-dev_3.3.4-4_all.deb 
+sudo dpkg -i libeigen3-dev_3.3.4-4_all.deb 
+```
+
 
 ```python
 from distutils.sysconfig import get_python_lib
