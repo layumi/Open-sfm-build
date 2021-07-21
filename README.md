@@ -41,8 +41,8 @@ print(get_python_lib())
     mkdir -p build && cd build && \
     cmake .. -DBUILD_TESTS=OFF \
              -DBUILD_PYTHON=ON \
-             -DPYBIND11_PYTHON_VERSION=3.6 \
-             -DPYTHON_INSTALL_DIR=/home/zzd/anaconda3/lib/python3.6/site-packages \
+             -DPYBIND11_PYTHON_VERSION=3.7 \
+             -DPYTHON_INSTALL_DIR=/home/zzd/anaconda3/lib/python3.7/site-packages \
              && \
     sudo make install   
 ```
