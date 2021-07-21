@@ -10,6 +10,8 @@ sudo rm g++
 sudo ln -s g++-7 g++
 ```
 
+wget http://kr.archive.ubuntu.com/ubuntu/pool/universe/e/eigen3/libeigen3-dev_3.3.4-4_all.deb 
+sudo dpkg -i libeigen3-dev_3.3.4-4_all.deb 
 
 ```
 sudo apt-get update \
@@ -18,7 +20,7 @@ sudo apt-get update \
         cmake \
         git \
         libatlas-base-dev \
-        libeigen3-dev=3.3.4-4 \
+        libeigen3-dev \
         libgoogle-glog-dev \
         libopencv-dev \
         libsuitesparse-dev 
